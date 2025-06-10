@@ -20,7 +20,7 @@ console.log("La variable secret est de type : " + (typeof secret))
 
 // On déclare nos variables : (si possible en trouve des explicites)
 let chaineNom = "Je m'appelle BOND"
-let trueorFalse = "true"
+let trueorFalse = true
 let nb = 85
 let pi = 3.14
 let date = new Date()
