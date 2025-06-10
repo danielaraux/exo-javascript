@@ -42,8 +42,9 @@ console.log("La variable varIndefinie est de type : " + (typeof varIndefinie))
 
 
 // Test de changement de la valeur de incorruptible (cela reste en type string malgré le changement, visible en F12 sur le navigateur)
-const incorruptible = "777"
+const incorruptible = "président"
 
 console.log("La variable incorruptible est de type : " + (typeof incorruptible))
 
-
+incorruptible = "senateur"
+console.log(incorruptible)
