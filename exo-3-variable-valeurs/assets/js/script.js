@@ -1,4 +1,10 @@
-// Commande pour faire afficher une pop-up sur la page qui va afficher Hello World (pas obligé de mettre de ; si il n'y a qu'une instruction par ligne)
-alert('Test Javascript');
+// Première manière de concaténation avec le + et les guillemets pour le texte
+let firstname = 'daniel';
+let age = 29;
+let city = 'Havre';
 
-console.log(85);
+alert("Je m'appelle " + firstname + ", j'ai " + age + " ans et j'habite au " + city + ".")
+
+// Deuxieme manière de concaténation avec le ` au début et a la fin de l'alert en ajoutant l'appel des variables avec $ et {}
+alert(`Je m'appelle ${firstname}, j'ai ${age} ans et j'habite au ${city}.`)
+
